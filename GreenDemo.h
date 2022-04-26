@@ -4,7 +4,7 @@
 
 using namespace cv;
 
-class QuickDemo {
+class GreenDemo {
 
 public:
 	void green_channels_demo(Mat &image);
