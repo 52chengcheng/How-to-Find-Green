@@ -1,5 +1,5 @@
 
-#include<quickopencv.h>
+#include<GreenDemo.h>
 
 
 void GreenDemo::green_channels_demo(Mat &image)
