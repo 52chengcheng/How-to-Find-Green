@@ -1,3 +1,6 @@
+#include<GreenDemo.h>
+
+
 void QuickDemo::green_and_demo(Mat &image) {
 	std::vector<Mat>mv;
 	split(image, mv);		//将split拆分为mv[]
