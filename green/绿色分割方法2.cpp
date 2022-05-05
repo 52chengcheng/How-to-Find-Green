@@ -1,4 +1,4 @@
-void green_demo2(Mat &image) {
+void green_demo_2(Mat &image) {
 	std::vector<Mat>mv;
 	split(image, mv);		//将split拆分为mv[]
 	//imshow("blue", mv[0]);	//mv现在是单通道的，为GRAYIMG，灰度图像，单通道图像
