@@ -40,5 +40,4 @@ void green_demo_1(Mat &image) {
 	mv[2] = R & dst;
 	merge(mv, dst);
 	imshow("end", dst);
-
 }
