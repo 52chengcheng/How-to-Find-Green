@@ -1,5 +1,5 @@
 
-void green_channels_demo_1(Mat &image) {
+void green_demo_1(Mat &image) {
 	const double r = -0.7, g = 0.6, b = 0.2;
 	const double thresh = 20;
 	std::vector<Mat>mv;
