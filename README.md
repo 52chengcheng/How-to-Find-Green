@@ -7,7 +7,7 @@ step5:将p分别和三通道进行逻辑与运算，合并三通道
 
 ![asdsf](https://user-images.githubusercontent.com/93379580/166921133-59b8f4bf-7ad7-4dd0-99e3-c9da61c29470.PNG)  
 <p align="center">   
-  jpg1
+  jpg1-05年A.Ribeiro
 </p>  
 
 
@@ -18,7 +18,7 @@ step2:保留G(i,j)>B(i,j)且G(i,j)>R(i,j)点的像素，其它情况R(i,j),G(i,j
 step3:最后合并三通道   
 ![g-and](https://user-images.githubusercontent.com/93379580/166100810-283a1d80-941f-48a1-bde6-a0e37e9db4af.PNG)
 <p align="center">   
-  jpg2
+  jpg2-11年张志斌
 </p>  
 
 
