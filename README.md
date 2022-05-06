@@ -11,11 +11,17 @@ step4:最后设置阈值，进行二值化处理。
 
 
 
-# 绿色方法2： 
-
+# 绿色方法2：   
+step1:对RGB通道进行分离，R(i,j),G(i,j),B(i,j)分别三个通道为在(i,j)点的像素值    
+step2:保留G(i,j)>B(i,j)且G(i,j)>R(i,j)点的像素，其它情况R(i,j),G(i,j),B(i,j)都为0   
+step3:最后合并三通道   
+![g-and](https://user-images.githubusercontent.com/93379580/166100810-283a1d80-941f-48a1-bde6-a0e37e9db4af.PNG)
+<p align="center">   
+  jpg2
+</p>  
 
 超绿：![54454554](https://user-images.githubusercontent.com/93379580/165488505-f1e10c63-3ee0-4575-b0ac-eb9ef27ca9fc.PNG)
-G_AND: ![g-and](https://user-images.githubusercontent.com/93379580/166100810-283a1d80-941f-48a1-bde6-a0e37e9db4af.PNG)
+
 
 # -
 基于C++和opencv的超绿色特征分割，
