@@ -44,6 +44,18 @@ step3:逻辑与运算后合并三通道
 </p>  
 
 
+
+# 绿色方法5-CIVE(Color Index of Vegetation Extraction)：   
+
+
+
+<p align="center">   
+  jpg5-03年KATAOKA
+</p>  
+
+
+
+
 # -
 基于C++和opencv的超绿色特征分割，
 记录对绿色提取的一些方法。
