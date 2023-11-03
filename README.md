@@ -1,3 +1,7 @@
+# -How to Find Green
+基于C++和opencv的超绿色特征分割，
+记录对绿色提取的一些方法。
+
 # 绿色方法1：
 step1:令r,g,b分别取值   
 step2:对图像的像素进行处理p(i,j)=r\*p_red(i,j)+g\*p_green(i,j)+b\*p_blue(i,j)   
@@ -55,8 +59,4 @@ step3:逻辑与运算后合并三通道
 
 
 
-
-# -How to Find Green
-基于C++和opencv的超绿色特征分割，
-记录对绿色提取的一些方法。
 
